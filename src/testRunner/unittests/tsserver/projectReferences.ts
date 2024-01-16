@@ -1689,4 +1689,82 @@ const b: B = new B();`,
         }
         /* eslint-enable local/argument-trivia */
     });
+
+    it("when file is not in the first project found but is contained by project from solution", () => {
+        const file = "/home/src/projects/project/app/Component-demos.ts";
+        const randomTs = "/home/src/projects/random/random.ts";
+        const random1Ts = "/home/src/projects/random1/random1.ts";
+        const host = createServerHost({
+            [file]: dedent`
+                import * as helpers from 'demos/helpers';
+
+                export const demo = () => {
+                    helpers;
+                }
+            `,
+            "/home/src/projects/project/app/Component.ts": dedent`
+                export const Component = () => {}
+            `,
+            "/home/src/projects/project/app/tsconfig.json": jsonToReadableText({
+                compilerOptions: {
+                    composite: true,
+                    outDir: "../app-dist/",
+                },
+                include: ["**/*"],
+                exclude: ["**/*-demos.*"],
+            }),
+            "/home/src/projects/project/demos/helpers.ts": dedent`
+                export const foo = 1;
+            `,
+            "/home/src/projects/project/demos/tsconfig.json": jsonToReadableText({
+                compilerOptions: {
+                    composite: true,
+                    rootDir: "../",
+                    outDir: "../demos-dist/",
+                    paths: {
+                        "demos/*": ["./*"],
+                    },
+                },
+                include: [
+                    "**/*",
+                    "../app/**/*-demos.*",
+                ],
+                references: [{ path: "../app/tsconfig.json" }],
+            }),
+            "/home/src/projects/project/tsconfig.json": jsonToReadableText({
+                compilerOptions: {
+                    outDir: "./dist/",
+                },
+                references: [
+                    { path: "./demos/tsconfig.json" },
+                    { path: "./app/tsconfig.json" },
+                ],
+            }),
+            [randomTs]: "export let a = 10;",
+            "/home/src/projects/random/tsconfig.json": "{}",
+            [random1Ts]: "export let b = 10;",
+            "/home/src/projects/random1/tsconfig.json": "{}",
+            [libFile.path]: libFile.content,
+        });
+        const session = new TestSession(host);
+        openFilesForSession([file], session);
+        verifyGetErrRequest({
+            files: [file],
+            session,
+        });
+        const info = session.getProjectService().getScriptInfo(file)!;
+        session.logger.startGroup();
+        session.logger.info(`getDefaultProject for ${file}: ${info.getDefaultProject().projectName}`);
+        session.logger.info(`findDefaultConfiguredProject for ${file}: ${session.getProjectService().findDefaultConfiguredProject(info)?.projectName}`);
+        session.logger.endGroup();
+
+        openFilesForSession([randomTs], session);
+        closeFilesForSession([randomTs], session);
+
+        openFilesForSession([random1Ts], session);
+        closeFilesForSession([file], session);
+
+        openFilesForSession([random1Ts], session);
+        baselineTsserverLogs("projectReferences", "when file is not in the first project found but is contained by project from solution", session);
+    });
 });
