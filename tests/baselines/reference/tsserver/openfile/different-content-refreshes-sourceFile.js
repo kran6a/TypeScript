@@ -302,10 +302,10 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	/project/b.ts Text-3 "export const b = 10;"
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /project/b.ts 1:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /project/b.ts FileWatcherEventKind.Changed:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /project/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /project/b.ts 1:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /project/b.ts FileWatcherEventKind.Changed:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 1: /project/tsconfig.json
 2: *ensureProjectForOpenFiles*

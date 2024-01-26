@@ -318,10 +318,10 @@ declare class class3 {}
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 0:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
+FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 FileWatcher:: Close:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 0:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project
 Project: /user/username/projects/myproject/projects/project1/tsconfig.json Detected output file: /user/username/projects/myproject/projects/project1/class3.d.ts
 Elapsed:: *ms DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project
@@ -539,9 +539,9 @@ Input::
 //// [/user/username/projects/myproject/projects/project1/class3.d.ts] deleted
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 2:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 2:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 250 undefined Source file
 DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project
 Project: /user/username/projects/myproject/projects/project1/tsconfig.json Detected output file: /user/username/projects/myproject/projects/project1/class3.d.ts
 Elapsed:: *ms DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project
@@ -711,10 +711,10 @@ declare class class3 {}
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 0:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
+FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 FileWatcher:: Close:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts 0:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/projects/project1/class3.d.ts 500 undefined Missing file
 DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project
 Project: /user/username/projects/myproject/projects/project1/tsconfig.json Detected output file: /user/username/projects/myproject/projects/project1/class3.d.ts
 Elapsed:: *ms DirectoryWatcher:: Triggered with /user/username/projects/myproject/projects/project1/class3.d.ts :: WatchInfo: /user/username/projects/myproject/projects/project1 1 undefined Wild card directory of referenced project

@@ -634,11 +634,11 @@ FsWatchesRecursive::
 /user/username/projects/myproject/random:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts.map 0:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts.map 2000 undefined WatchType: Missing source map file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts.map FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts.map 2000 undefined WatchType: Missing source map file
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/dependency/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts.map 2000 undefined WatchType: Missing source map file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts.map 0:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts.map 2000 undefined WatchType: Missing source map file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts.map FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts.map 2000 undefined WatchType: Missing source map file
 Before request
 //// [/user/username/projects/myproject/decls/FnS.d.ts.map]
 {"version":3,"file":"FnS.d.ts","sourceRoot":"","sources":["../dependency/FnS.ts"],"names":[],"mappings":"AAAA,wBAAgB,GAAG,SAAM;AACzB,wBAAgB,GAAG,SAAM;AACzB,wBAAgB,GAAG,SAAM;AACzB,wBAAgB,GAAG,SAAM;AACzB,wBAAgB,GAAG,SAAM"}

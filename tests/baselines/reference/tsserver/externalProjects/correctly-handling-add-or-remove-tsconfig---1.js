@@ -161,11 +161,11 @@ FsWatches *deleted*::
 /a/b/app.ts:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/lib.ts 2:: WatchInfo: /a/b/lib.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/lib.ts FileWatcherEventKind.Deleted:: WatchInfo: /a/b/lib.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/lib.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/proj1
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/lib.ts 2:: WatchInfo: /a/b/lib.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/lib.ts FileWatcherEventKind.Deleted:: WatchInfo: /a/b/lib.ts 500 undefined WatchType: Closed Script info
 Before request
 //// [/a/b/tsconfig.json]
 
@@ -323,7 +323,7 @@ FsWatchesRecursive::
 /a/b: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/tsconfig.json 2:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] `remove Project::
 Info seq  [hh:mm:ss:mss] Project '/a/b/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (1)
@@ -339,7 +339,7 @@ Info seq  [hh:mm:ss:mss] Elapsed:: *ms DirectoryWatcher:: Close:: WatchInfo: /a/
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/lib/lib.d.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/tsconfig.json 2:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
 Before request
 //// [/a/b/lib.ts]
 

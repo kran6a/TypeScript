@@ -1137,9 +1137,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/@types/bar/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/@types/bar/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/@types/bar/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/@types/bar/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -1400,9 +1400,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/foo/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/foo/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/foo/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/foo/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -1669,9 +1669,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar2/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/@types/bar2/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar2/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/@types/bar2/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar2/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/@types/bar2/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/@types/bar2/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/@types/bar2/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -1977,9 +1977,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo2/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/foo2/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo2/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/foo2/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo2/package.json 1:: WatchInfo: /home/src/projects/project/node_modules/foo2/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project/node_modules/foo2/package.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project/node_modules/foo2/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1

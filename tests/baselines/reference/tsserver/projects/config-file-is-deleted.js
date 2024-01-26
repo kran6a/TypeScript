@@ -242,7 +242,7 @@ FsWatchesRecursive::
 /a/b:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/tsconfig.json 2:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] `remove Project::
 Info seq  [hh:mm:ss:mss] Project '/a/b/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (2)
@@ -265,7 +265,7 @@ Info seq  [hh:mm:ss:mss] For info: /a/b/f1.ts :: No config files found.
 Info seq  [hh:mm:ss:mss] Search path: /a/b
 Info seq  [hh:mm:ss:mss] For info: /a/b/f2.ts :: No config files found.
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/tsconfig.json 2:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /a/b/tsconfig.json 2000 undefined Project: /a/b/tsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 1
 1: *ensureProjectForOpenFiles*
 //// [/a/b/tsconfig.json] deleted

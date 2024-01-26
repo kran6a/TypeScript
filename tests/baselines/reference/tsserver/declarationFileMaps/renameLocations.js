@@ -582,10 +582,10 @@ FsWatchesRecursive::
 /b:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /b/b.ts 2:: WatchInfo: /b/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /b/b.ts FileWatcherEventKind.Deleted:: WatchInfo: /b/b.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /b/b.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /b/tsconfig.json
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /b/b.ts 2:: WatchInfo: /b/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /b/b.ts FileWatcherEventKind.Deleted:: WatchInfo: /b/b.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with /b/b.ts :: WatchInfo: /b 1 undefined Config: /b/tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Scheduled: /b/tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Elapsed:: *ms DirectoryWatcher:: Triggered with /b/b.ts :: WatchInfo: /b 1 undefined Config: /b/tsconfig.json WatchType: Wild card directory

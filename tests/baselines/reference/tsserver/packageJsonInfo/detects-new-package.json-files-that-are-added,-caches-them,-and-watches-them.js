@@ -365,8 +365,8 @@ FsWatchesRecursive::
 /:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
 Edit package.json
 //// [/package.json]
 {

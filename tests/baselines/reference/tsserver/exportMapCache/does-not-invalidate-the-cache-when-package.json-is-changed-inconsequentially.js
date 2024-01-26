@@ -373,8 +373,8 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
 Before running Timeout callback:: count: 0
 //// [/package.json]
 { "name": "blah", "dependencies": { "mobx": "*" } }

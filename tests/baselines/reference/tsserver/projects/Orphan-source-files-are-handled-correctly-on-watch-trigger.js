@@ -172,10 +172,10 @@ FsWatches::
 /user/username/projects/myproject/tsconfig.json: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 1:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Project: /user/username/projects/myproject/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Project: /user/username/projects/myproject/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 1:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Project: /user/username/projects/myproject/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Project: /user/username/projects/myproject/tsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 2
 1: /user/username/projects/myproject/tsconfig.json
 2: *ensureProjectForOpenFiles*
@@ -277,8 +277,8 @@ Info seq  [hh:mm:ss:mss] event:
 After running Timeout callback:: count: 0
 
 Containing projects for /user/username/projects/myproject/src/file2.ts:: 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/src/file2.ts 1:: WatchInfo: /user/username/projects/myproject/src/file2.ts 500 undefined WatchType: Closed Script info
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/src/file2.ts 1:: WatchInfo: /user/username/projects/myproject/src/file2.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/src/file2.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/src/file2.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/src/file2.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/src/file2.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 0
 //// [/user/username/projects/myproject/src/file2.ts]
 export let y = 10;export let z = 10;

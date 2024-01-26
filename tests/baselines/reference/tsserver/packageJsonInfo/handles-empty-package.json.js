@@ -341,7 +341,7 @@ getPackageJsonsVisibleToFile:: /src/whatever/blah.ts undefined:: Result:: [
   }
 ]
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
 TI:: [hh:mm:ss:mss] Got install request
     {
       "projectName": "/dev/null/inferredProject1*",
@@ -436,9 +436,9 @@ Info seq  [hh:mm:ss:mss] event:
         "kind": "action::set"
       }
     }
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 1:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Changed:: WatchInfo: /package.json 250 undefined WatchType: package.json file
 PackageJson
 //// [/package.json]
 {

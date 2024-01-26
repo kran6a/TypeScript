@@ -176,10 +176,10 @@ FsWatchesRecursive::
 /a/b/project: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/project/file3.ts 1:: WatchInfo: /a/b/project/file3.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/project/file3.ts FileWatcherEventKind.Changed:: WatchInfo: /a/b/project/file3.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/project/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/project/file3.ts 1:: WatchInfo: /a/b/project/file3.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/project/file3.ts FileWatcherEventKind.Changed:: WatchInfo: /a/b/project/file3.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 1: /a/b/project/tsconfig.json
 2: *ensureProjectForOpenFiles*

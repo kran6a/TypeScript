@@ -120,9 +120,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 1:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Config file
+FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Config file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 1:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Config file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined Config file
 
 
 Timeout callback:: count: 1

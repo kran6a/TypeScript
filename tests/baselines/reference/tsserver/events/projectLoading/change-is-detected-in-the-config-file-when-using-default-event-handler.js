@@ -163,10 +163,10 @@ FsWatchesRecursive::
 /user/username/projects/a: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/a/tsconfig.json 1:: WatchInfo: /user/username/projects/a/tsconfig.json 2000 undefined Project: /user/username/projects/a/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/a/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/a/tsconfig.json 2000 undefined Project: /user/username/projects/a/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/a/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/a/tsconfig.json 1:: WatchInfo: /user/username/projects/a/tsconfig.json 2000 undefined Project: /user/username/projects/a/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/a/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/a/tsconfig.json 2000 undefined Project: /user/username/projects/a/tsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 2
 1: /user/username/projects/a/tsconfig.json
 2: *ensureProjectForOpenFiles*

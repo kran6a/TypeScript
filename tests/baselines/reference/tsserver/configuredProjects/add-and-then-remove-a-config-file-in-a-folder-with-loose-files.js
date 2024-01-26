@@ -130,7 +130,7 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 0:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/myproject
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile1.ts :: Config file name: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Creating configuration project /user/username/projects/myproject/tsconfig.json
@@ -138,15 +138,15 @@ Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/tsconfig.j
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/myproject
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile2.ts :: Config file name: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 0:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 0:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/myproject
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile1.ts :: Config file name: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/myproject
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile2.ts :: Config file name: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 0:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
 Before running Timeout callback:: count: 2
 3: /user/username/projects/myproject/tsconfig.json
 4: *ensureProjectForOpenFiles*
@@ -337,7 +337,7 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 2:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
 Info seq  [hh:mm:ss:mss] `remove Project::
 Info seq  [hh:mm:ss:mss] Project '/user/username/projects/myproject/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (2)
@@ -360,7 +360,7 @@ Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile1
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/myproject
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/myproject/commonFile2.ts :: No config files found.
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json 2:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/tsconfig.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/tsconfig.json 2000 undefined WatchType: Config file for the inferred project root
 Before running Timeout callback:: count: 1
 5: *ensureProjectForOpenFiles*
 //// [/user/username/projects/myproject/tsconfig.json] deleted

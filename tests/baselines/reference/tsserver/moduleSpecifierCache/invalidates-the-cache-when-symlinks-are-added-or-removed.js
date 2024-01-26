@@ -867,11 +867,11 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /src/b-link.ts 2:: WatchInfo: /src/b-link.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /src/b-link.ts FileWatcherEventKind.Deleted:: WatchInfo: /src/b-link.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /src/b-link.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /src/b-link.ts 2:: WatchInfo: /src/b-link.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /src/b-link.ts FileWatcherEventKind.Deleted:: WatchInfo: /src/b-link.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with /src/b-link.ts :: WatchInfo: /src 1 undefined Config: /tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Scheduled: /tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one

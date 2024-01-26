@@ -324,10 +324,10 @@ FsWatchesRecursive::
 /user/username/projects/sample1/logic: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts 1:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/sample1/tests/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts 1:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 1: /user/username/projects/sample1/tests/tsconfig.json
 2: *ensureProjectForOpenFiles*
@@ -388,10 +388,10 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts 1:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/sample1/tests/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts 1:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/index.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/index.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 3: /user/username/projects/sample1/tests/tsconfig.json
 4: *ensureProjectForOpenFiles*
@@ -452,10 +452,10 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/tsconfig.json 1:: WatchInfo: /user/username/projects/sample1/logic/tsconfig.json 2000 undefined Project: /user/username/projects/sample1/tests/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/sample1/logic/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/tsconfig.json 2000 undefined Project: /user/username/projects/sample1/tests/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/sample1/tests/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/tsconfig.json 1:: WatchInfo: /user/username/projects/sample1/logic/tsconfig.json 2000 undefined Project: /user/username/projects/sample1/tests/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/sample1/logic/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/sample1/logic/tsconfig.json 2000 undefined Project: /user/username/projects/sample1/tests/tsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 2
 5: /user/username/projects/sample1/tests/tsconfig.json
 6: *ensureProjectForOpenFiles*

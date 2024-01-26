@@ -368,7 +368,7 @@ getPackageJsonsVisibleToFile:: /src/whatever/blah.ts undefined:: Result:: [
   }
 ]
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 2:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Deleted:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
 TI:: [hh:mm:ss:mss] Got install request
     {
       "projectName": "/dev/null/inferredProject1*",
@@ -456,10 +456,10 @@ Info seq  [hh:mm:ss:mss] event:
       }
     }
 TI:: [hh:mm:ss:mss] No new typings were requested as a result of typings discovery
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 2:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json 2:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Deleted:: WatchInfo: /package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /package.json FileWatcherEventKind.Deleted:: WatchInfo: /package.json 250 undefined WatchType: package.json file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json 2:: WatchInfo: /package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /package.json FileWatcherEventKind.Deleted:: WatchInfo: /package.json 250 undefined WatchType: package.json file
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with package.json :: WatchInfo:  1 undefined Config: /tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Project: /tsconfig.json Detected file add/remove of non supported extension: package.json
 Info seq  [hh:mm:ss:mss] Elapsed:: *ms DirectoryWatcher:: Triggered with package.json :: WatchInfo:  1 undefined Config: /tsconfig.json WatchType: Wild card directory

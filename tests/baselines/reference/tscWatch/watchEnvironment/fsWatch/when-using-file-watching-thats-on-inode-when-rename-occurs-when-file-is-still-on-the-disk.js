@@ -116,9 +116,9 @@ export declare function foo2(): string;
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 sysLog:: /user/username/projects/myproject/foo.ts:: Changing watcher to PresentFileSystemEntryWatcher
 
 
@@ -207,17 +207,17 @@ export declare function foo(): string;
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 2:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 2:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 sysLog:: /user/username/projects/myproject/foo.ts:: Changing watcher to MissingFileSystemEntryWatcher
-FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 sysLog:: /user/username/projects/myproject/foo.ts:: Changing watcher to PresentFileSystemEntryWatcher
-FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts 0:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/foo.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/foo.ts 250 {"watchFile":4} Source file
 sysLog:: /user/username/projects/myproject/foo.ts:: Changing watcher to PresentFileSystemEntryWatcher
 
 

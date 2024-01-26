@@ -72,9 +72,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /f.ts 1:: WatchInfo: /f.ts 250 undefined Source file
+FileWatcher:: Triggered with /f.ts FileWatcherEventKind.Changed:: WatchInfo: /f.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /f.ts 1:: WatchInfo: /f.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /f.ts FileWatcherEventKind.Changed:: WatchInfo: /f.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1

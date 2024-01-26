@@ -424,11 +424,11 @@ FsWatchesRecursive::
 /node_modules:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a.ts 2:: WatchInfo: /a.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a.ts FileWatcherEventKind.Deleted:: WatchInfo: /a.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a.ts 2:: WatchInfo: /a.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a.ts FileWatcherEventKind.Deleted:: WatchInfo: /a.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with a.ts :: WatchInfo:  1 undefined Config: /tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Scheduled: /tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one

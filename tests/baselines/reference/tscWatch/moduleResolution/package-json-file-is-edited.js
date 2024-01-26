@@ -176,9 +176,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -318,9 +318,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -460,9 +460,9 @@ Input::
 //// [/user/username/projects/myproject/package.json] deleted
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -594,9 +594,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/package.json 0:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 0:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1
@@ -734,9 +734,9 @@ Input::
 //// [/user/username/projects/myproject/package.json] deleted
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 Scheduling invalidateFailedLookup
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined File location affecting resolution
 
 
 Timeout callback:: count: 1

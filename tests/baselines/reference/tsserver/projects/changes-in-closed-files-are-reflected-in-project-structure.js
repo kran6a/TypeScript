@@ -103,10 +103,10 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/f2.ts 1:: WatchInfo: /a/b/f2.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/f2.ts FileWatcherEventKind.Changed:: WatchInfo: /a/b/f2.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /dev/null/inferredProject1*
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/f2.ts 1:: WatchInfo: /a/b/f2.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/f2.ts FileWatcherEventKind.Changed:: WatchInfo: /a/b/f2.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 1: /dev/null/inferredProject1*
 2: *ensureProjectForOpenFiles*

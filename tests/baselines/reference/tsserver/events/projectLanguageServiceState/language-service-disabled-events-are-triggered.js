@@ -221,10 +221,10 @@ FsWatches::
   {}
 
 Language service enabled: false
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/jsconfig.json 1:: WatchInfo: /a/jsconfig.json 2000 undefined Project: /a/jsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/jsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /a/jsconfig.json 2000 undefined Project: /a/jsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /a/jsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/jsconfig.json 1:: WatchInfo: /a/jsconfig.json 2000 undefined Project: /a/jsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/jsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /a/jsconfig.json 2000 undefined Project: /a/jsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 2
 1: /a/jsconfig.json
 2: *ensureProjectForOpenFiles*

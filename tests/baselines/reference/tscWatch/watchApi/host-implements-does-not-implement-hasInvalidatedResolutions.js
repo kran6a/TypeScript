@@ -114,9 +114,9 @@ Input::
 //// [/user/username/projects/myproject/other.d.ts] file changed its modified time
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -174,9 +174,9 @@ export function foo(): void;export function bar(): void;
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -240,9 +240,9 @@ export function foo() {}
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts 1:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/other.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/other.d.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1

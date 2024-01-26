@@ -901,9 +901,9 @@ export const x = "type1";export const xyz = 10;
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project1/index.ts 1:: WatchInfo: /home/src/projects/project1/index.ts 250 undefined Source file
+FileWatcher:: Triggered with /home/src/projects/project1/index.ts FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/index.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/index.ts 1:: WatchInfo: /home/src/projects/project1/index.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/index.ts FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/index.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -1147,9 +1147,9 @@ Input::
 //// [/home/src/projects/project1/core.d.ts] deleted
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts 2:: WatchInfo: /home/src/projects/project1/core.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/project1/core.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts 2:: WatchInfo: /home/src/projects/project1/core.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/project1/core.d.ts 250 undefined Source file
 DirectoryWatcher:: Triggered with /home/src/projects/project1/core.d.ts :: WatchInfo: /home/src/projects/project1 1 undefined Wild card directory
 Scheduling update
 Elapsed:: *ms DirectoryWatcher:: Triggered with /home/src/projects/project1/core.d.ts :: WatchInfo: /home/src/projects/project1 1 undefined Wild card directory
@@ -1411,9 +1411,9 @@ Input::
 //// [/home/src/projects/node_modules/@typescript/lib-dom/index.d.ts] deleted
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 2:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 2:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts 250 undefined Source file
 DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations
 Scheduling invalidateFailedLookup
 Elapsed:: *ms DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations
@@ -1747,9 +1747,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
+FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
 
 
 Timeout callback:: count: 1
@@ -1907,9 +1907,9 @@ interface DOMInterface { }
 
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
+FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Config file
 DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations
 Scheduling invalidateFailedLookup
 Elapsed:: *ms DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations
@@ -2535,9 +2535,9 @@ Input::
 //// [/home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts] deleted
 
 Output::
-FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 2:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 250 undefined Source file
+FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 2:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts 250 undefined Source file
 DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations
 Scheduling invalidateFailedLookup
 Elapsed:: *ms DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-webworker/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Failed Lookup Locations

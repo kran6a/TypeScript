@@ -131,14 +131,14 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/app.ts 2:: WatchInfo: /a/b/app.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/app.ts FileWatcherEventKind.Deleted:: WatchInfo: /a/b/app.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/app.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/test.csproj
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/app.ts 2:: WatchInfo: /a/b/app.ts 500 undefined WatchType: Closed Script info
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/applib.ts 0:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/app.ts FileWatcherEventKind.Deleted:: WatchInfo: /a/b/app.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/applib.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/test.csproj, Cancelled earlier one
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/applib.ts 0:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/applib.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Before request
 //// [/a/b/applib.ts]
 
@@ -208,10 +208,10 @@ FsWatches::
 /a/lib/lib.d.ts:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/app.ts 0:: WatchInfo: /a/b/app.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/app.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/app.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/app.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/test.csproj, Cancelled earlier one
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/app.ts 0:: WatchInfo: /a/b/app.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/app.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/app.ts 500 undefined Project: /a/b/test.csproj WatchType: Missing file
 Before request
 //// [/a/b/app.ts]
 

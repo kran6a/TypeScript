@@ -226,11 +226,11 @@ FsWatchesRecursive::
   {}
 
 Info seq  [hh:mm:ss:mss] Modify package json file to remove type module
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
 Before running Timeout callback:: count: 1
 1: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
 //// [/user/username/projects/myproject/package.json]
@@ -412,11 +412,11 @@ Info seq  [hh:mm:ss:mss] event:
 After running Immedidate callback:: count: 0
 
 Info seq  [hh:mm:ss:mss] Modify package json file to add type module
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 1:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
 Before running Timeout callback:: count: 1
 5: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
 //// [/user/username/projects/myproject/package.json]
@@ -585,12 +585,12 @@ Info seq  [hh:mm:ss:mss] event:
 After running Immedidate callback:: count: 0
 
 Info seq  [hh:mm:ss:mss] Delete package.json
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 250 undefined WatchType: package.json file
 Before running Timeout callback:: count: 1
 9: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
 //// [/user/username/projects/myproject/package.json] deleted
@@ -802,9 +802,9 @@ Info seq  [hh:mm:ss:mss] event:
 After running Immedidate callback:: count: 0
 
 Info seq  [hh:mm:ss:mss] Modify package json file to without type module
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 0:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 0:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Before running Timeout callback:: count: 1
 13: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
 //// [/user/username/projects/myproject/package.json]
@@ -1009,9 +1009,9 @@ Info seq  [hh:mm:ss:mss] event:
 After running Immedidate callback:: count: 0
 
 Info seq  [hh:mm:ss:mss] Delete package.json
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json 2:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/package.json FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/package.json 2000 undefined Project: /user/username/projects/myproject/src/tsconfig.json WatchType: File location affecting resolution
 Before running Timeout callback:: count: 1
 17: /user/username/projects/myproject/src/tsconfig.jsonFailedLookupInvalidation
 //// [/user/username/projects/myproject/package.json] deleted

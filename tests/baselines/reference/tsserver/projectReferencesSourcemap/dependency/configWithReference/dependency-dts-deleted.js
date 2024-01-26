@@ -637,11 +637,11 @@ FsWatchesRecursive::
 /user/username/projects/myproject/random:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts 2:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/dependency/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts 2:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/decls/FnS.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /user/username/projects/myproject/decls/FnS.d.ts 500 undefined WatchType: Closed Script info
 Before request
 //// [/user/username/projects/myproject/decls/FnS.d.ts] deleted
 

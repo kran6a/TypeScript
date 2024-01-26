@@ -108,9 +108,9 @@ export const x = 10;export const y = 10;
 
 
 Output::
-FileWatcher:: Triggered with /user/username/projects/myproject/main.ts 1:: WatchInfo: /user/username/projects/myproject/main.ts 250 undefined Source file
+FileWatcher:: Triggered with /user/username/projects/myproject/main.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/main.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/main.ts 1:: WatchInfo: /user/username/projects/myproject/main.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/main.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/main.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1

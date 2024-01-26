@@ -292,10 +292,10 @@ FsWatches::
 /user/username/projects/myproject/tsconfig.json:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/d.ts 1:: WatchInfo: /user/username/projects/myproject/d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/myproject/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/d.ts 1:: WatchInfo: /user/username/projects/myproject/d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/d.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 3: /user/username/projects/myproject/tsconfig.json
 4: *ensureProjectForOpenFiles*

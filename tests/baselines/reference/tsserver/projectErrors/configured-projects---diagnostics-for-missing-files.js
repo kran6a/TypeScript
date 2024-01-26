@@ -224,11 +224,11 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/applib.ts 0:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/applib.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: /a/b/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/applib.ts 0:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/applib.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/applib.ts 500 undefined Project: /a/b/tsconfig.json WatchType: Missing file
 Before request
 //// [/a/b/applib.ts]
 

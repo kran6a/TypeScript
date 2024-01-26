@@ -329,10 +329,10 @@ FsWatchesRecursive::
 Info seq  [hh:mm:ss:mss] Starting updateGraphWorker: Project: /project/tsconfig.json
 Info seq  [hh:mm:ss:mss] Finishing updateGraphWorker: Project: /project/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed:: *ms
 Info seq  [hh:mm:ss:mss] Same program as before
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /project/b.ts 1:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /project/b.ts FileWatcherEventKind.Changed:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /project/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /project/b.ts 1:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /project/b.ts FileWatcherEventKind.Changed:: WatchInfo: /project/b.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 1: /project/tsconfig.json
 2: *ensureProjectForOpenFiles*

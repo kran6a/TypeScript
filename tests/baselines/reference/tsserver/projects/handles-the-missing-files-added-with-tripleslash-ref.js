@@ -112,11 +112,11 @@ Info seq  [hh:mm:ss:mss] response:
     }
 After request
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/commonFile2.ts 0:: WatchInfo: /a/b/commonFile2.ts 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/commonFile2.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/commonFile2.ts 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /a/b/commonFile2.ts 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: /dev/null/inferredProject1*
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/commonFile2.ts 0:: WatchInfo: /a/b/commonFile2.ts 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/commonFile2.ts FileWatcherEventKind.Created:: WatchInfo: /a/b/commonFile2.ts 500 undefined Project: /dev/null/inferredProject1* WatchType: Missing file
 Before running Timeout callback:: count: 2
 1: /dev/null/inferredProject1*
 2: *ensureProjectForOpenFiles*

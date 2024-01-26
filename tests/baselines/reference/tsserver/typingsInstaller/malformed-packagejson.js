@@ -196,7 +196,7 @@ FsWatches::
 /a/b/package.json: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/package.json 1:: WatchInfo: /a/b/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/package.json FileWatcherEventKind.Changed:: WatchInfo: /a/b/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
 TI:: [hh:mm:ss:mss] Got install request
     {
       "projectName": "/dev/null/inferredProject1*",
@@ -261,9 +261,9 @@ Info seq  [hh:mm:ss:mss] event:
 TI:: [hh:mm:ss:mss] #1 with cwd: /a/cache/ arguments: [
   "@types/commander@tsFakeMajor.Minor"
 ]
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/package.json 1:: WatchInfo: /a/b/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/package.json 1:: WatchInfo: /a/b/package.json 250 undefined WatchType: package.json file
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/package.json 1:: WatchInfo: /a/b/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/package.json FileWatcherEventKind.Changed:: WatchInfo: /a/b/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location for typing installer
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /a/b/package.json FileWatcherEventKind.Changed:: WatchInfo: /a/b/package.json 250 undefined WatchType: package.json file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /a/b/package.json FileWatcherEventKind.Changed:: WatchInfo: /a/b/package.json 250 undefined WatchType: package.json file
 Before running PendingInstalls callback:: count: 1
 1: #1 with arguments:: [
   "@types/commander@tsFakeMajor.Minor"

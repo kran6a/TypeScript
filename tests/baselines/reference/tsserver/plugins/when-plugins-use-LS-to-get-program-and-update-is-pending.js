@@ -187,11 +187,11 @@ FsWatchesRecursive::
 /user/username/projects/project: *new*
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/project/b.ts 0:: WatchInfo: /user/username/projects/project/b.ts 500 undefined Project: /user/username/projects/project/tsconfig.json WatchType: Missing file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/project/b.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/project/b.ts 500 undefined Project: /user/username/projects/project/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /user/username/projects/project/b.ts 500 undefined Project: /user/username/projects/project/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/project/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/project/b.ts 0:: WatchInfo: /user/username/projects/project/b.ts 500 undefined Project: /user/username/projects/project/tsconfig.json WatchType: Missing file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/project/b.ts FileWatcherEventKind.Created:: WatchInfo: /user/username/projects/project/b.ts 500 undefined Project: /user/username/projects/project/tsconfig.json WatchType: Missing file
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with /user/username/projects/project/b.ts :: WatchInfo: /user/username/projects/project 1 undefined Config: /user/username/projects/project/tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Scheduled: /user/username/projects/project/tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one

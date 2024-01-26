@@ -591,10 +591,10 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/file.ts 1:: WatchInfo: /home/src/projects/project1/file.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/file.ts FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/file.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/file.ts 1:: WatchInfo: /home/src/projects/project1/file.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/file.ts FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/file.ts 500 undefined WatchType: Closed Script info
 Before running Timeout callback:: count: 2
 5: /home/src/projects/project1/tsconfig.json
 6: *ensureProjectForOpenFiles*
@@ -658,11 +658,11 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts 2:: WatchInfo: /home/src/projects/project1/core.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/project1/core.d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] FileWatcher:: Close:: WatchInfo: /home/src/projects/project1/core.d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts 2:: WatchInfo: /home/src/projects/project1/core.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/core.d.ts FileWatcherEventKind.Deleted:: WatchInfo: /home/src/projects/project1/core.d.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with /home/src/projects/project1/core.d.ts :: WatchInfo: /home/src/projects/project1 1 undefined Config: /home/src/projects/project1/tsconfig.json WatchType: Wild card directory
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.json, Cancelled earlier one
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*, Cancelled earlier one
@@ -913,10 +913,10 @@ Info seq  [hh:mm:ss:mss] event:
     }
 After running Timeout callback:: count: 0
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
 Before running Timeout callback:: count: 2
 14: /home/src/projects/project1/tsconfig.json
 15: *ensureProjectForOpenFiles*
@@ -1088,10 +1088,10 @@ FsWatchesRecursive::
 /home/src/projects/project1/typeroot1:
   {}
 
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json 1:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /home/src/projects/project1/tsconfig.json FileWatcherEventKind.Changed:: WatchInfo: /home/src/projects/project1/tsconfig.json 2000 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Failed Lookup Locations
 Info seq  [hh:mm:ss:mss] Scheduled: /home/src/projects/project1/tsconfig.jsonFailedLookupInvalidation
 Info seq  [hh:mm:ss:mss] Elapsed:: *ms DirectoryWatcher:: Triggered with /home/src/projects/node_modules/@typescript/lib-dom/index.d.ts :: WatchInfo: /home/src/projects/node_modules 1 undefined Project: /home/src/projects/project1/tsconfig.json WatchType: Failed Lookup Locations

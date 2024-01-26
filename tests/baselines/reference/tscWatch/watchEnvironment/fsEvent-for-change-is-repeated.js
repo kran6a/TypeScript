@@ -83,9 +83,9 @@ let a: string = "Hello World"
 
 
 Output::
-FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -138,9 +138,9 @@ Change:: receive another change event without modifying the file
 Input::
 
 Output::
-FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -166,9 +166,9 @@ Input::
 
 
 Output::
-FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1
@@ -219,9 +219,9 @@ Change:: receive another change event without modifying the file
 Input::
 
 Output::
-FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 Scheduling update
-Elapsed:: *ms FileWatcher:: Triggered with main.ts 1:: WatchInfo: main.ts 250 undefined Source file
+Elapsed:: *ms FileWatcher:: Triggered with main.ts FileWatcherEventKind.Changed:: WatchInfo: main.ts 250 undefined Source file
 
 
 Timeout callback:: count: 1

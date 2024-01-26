@@ -219,8 +219,8 @@ DocumentRegistry::
   Key:: undefined|undefined|undefined|false|undefined|undefined|undefined|undefined|undefined|undefined
     /user/username/projects/myproject/index.ts: TS 1
     /a/lib/lib.d.ts: TS 1
-Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/module1.d.ts 1:: WatchInfo: /user/username/projects/myproject/module1.d.ts 500 undefined WatchType: Closed Script info
-Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/module1.d.ts 1:: WatchInfo: /user/username/projects/myproject/module1.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /user/username/projects/myproject/module1.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/module1.d.ts 500 undefined WatchType: Closed Script info
+Info seq  [hh:mm:ss:mss] Elapsed:: *ms FileWatcher:: Triggered with /user/username/projects/myproject/module1.d.ts FileWatcherEventKind.Changed:: WatchInfo: /user/username/projects/myproject/module1.d.ts 500 undefined WatchType: Closed Script info
 Before request
 //// [/user/username/projects/myproject/module1.d.ts]
 export const a: number;
