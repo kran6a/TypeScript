@@ -4426,6 +4426,8 @@ declare namespace Intl {
         maximumFractionDigits?: number | undefined;
         minimumSignificantDigits?: number | undefined;
         maximumSignificantDigits?: number | undefined;
+        roundingMode: "ceil" | "floor" | "expand" | "trunc" | "halfCeil" | "halfFloor" | "halfExpand" | "halfTrunc" | "halfEven";
+        trailingZeroDisplay: "auto" | "stripIfInteger";
     }
 
     interface ResolvedNumberFormatOptions {
